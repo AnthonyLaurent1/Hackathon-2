@@ -44,3 +44,11 @@ svg:hover {
     min-width: 1200px;
 }
 
+.block {
+    transition: transform .2s;
+}
+
+.block:hover {
+    transform: scale(1.1);
+    z-index: 100;
+}
