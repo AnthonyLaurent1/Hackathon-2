@@ -1,3 +1,28 @@
-body {
-    background-color: red;
+.navbar {
+    background-color: white;
 }
+
+.logo-nav {
+    width:100%;
+}
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+body {
+    background-color: #f5f6f7;
+}
+
+svg {
+    text-decoration: none;
+    color: darkblue;
+}
+svg:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
