@@ -1,3 +1,7 @@
+h1, h2, h3, p, a {
+    font-family: 'Nunito', sans-serif;
+}
+
 .navbar {
     background-color: white;
 }
@@ -9,7 +13,7 @@ a {
     text-decoration: none;
     color: darkblue;
 }
-a:hover {
+nav a:hover {
     text-decoration: underline;
     color: darkblue;
 }
@@ -49,6 +53,19 @@ svg:hover {
 }
 
 .block:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     z-index: 100;
+}
+.btn {
+    background: #ecdd80;;
+}
+
+.btn:hover {
+    background: #29b9ad;
+    color: white;
+}
+
+.color {
+    background: #29b9ad;
+    color: white;
 }
