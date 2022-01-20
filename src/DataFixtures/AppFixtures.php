@@ -10,7 +10,7 @@ class AppFixtures extends Fixture
 {
     public const PRODUCT = [
         1 => [
-            'name' => 'Planches d\'aspect de bois Marron terre d',
+            'name' => 'Planches d\'aspect de bois Marron terre',
             'description' => '',
             'picture' => 'https://media.discordapp.net/attachments/933270656282398750/933652008781643806/bois_murale.PNG',
             'price' => 33,
