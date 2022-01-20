@@ -43,11 +43,21 @@ svg:hover {
     min-height: 50px;
     min-width: 1200px;
 }
+.max {
+    max-width: 120%;
+}
 .block {
     transition: transform .2s;
 }
 .block:hover {
     transform: scale(1.2);
+    z-index: 100;
+}
+.block1 {
+    transition: transform .2s;
+}
+.block1:hover {
+    transform: scale(1.1);
     z-index: 100;
 }
 .btn {
