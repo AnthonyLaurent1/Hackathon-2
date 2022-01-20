@@ -72,13 +72,6 @@ class AppFixtures extends Fixture
             'price' => 4,
             'ranking' => 5,
         ],
-        10 => [
-            'name' => 'dfj',
-            'description' => 'sdcfsf',
-            'picture' => 'url',
-            'price' => 4,
-            'ranking' => 5,
-        ],
         ];
     public function load(ObjectManager $manager): void
     {
