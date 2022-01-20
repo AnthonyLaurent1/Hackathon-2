@@ -5,13 +5,13 @@
 {% block body %}
 
     <div class="container text-center">
-            <div class="d-flex flex-column">
-                <div class="d-flex flex-wrap">
-                    {% for product in products %}
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-wrap">
+                {% for product in products %}
                     <div class="col-md-4 mt-5">
                         <div class="row">
                             <div class="col-md-12">
-                                    <div class="card"> <img class="card-img-top" src="{{ product.picture }}" alt="Card image cap">
+                                <div class="card"> <img class="card-img-top card-show" src="{{ product.picture }}" alt="Card image cap">
                                     <div class="card-body">
                                         <h4 class="card-title">{{ product.name }}</h4>
                                         <p class="card-text">{{ product.description}}</p>
@@ -23,9 +23,9 @@
                             </div>
                         </div>
                     </div>
-                    {% endfor %}
-                </div>
+                {% endfor %}
             </div>
+        </div>
     </div>
 
 
