@@ -38,7 +38,7 @@ class AppFixtures extends Fixture
             'ranking' => 4,
         ],
         5 => [
-            'name' => 'Rouleau anti-goutte avec rallonge',
+            'name' => 'Rouleau anti-goutte avec rallonge DEXTER',
             'description' => 'SAVY 180 mm',
             'picture' => 'assets/images/rouleau1.jpg',
             'price' => 18,
