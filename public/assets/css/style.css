@@ -92,11 +92,6 @@ svg:hover {
     offset-rotate: 30deg;
 }
 
-.card-show {
-    height: 40%;
-    width: 80%;
-}
-
 @keyframes move {
     100% {
         offset-distance: 20%;
