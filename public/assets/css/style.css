@@ -76,6 +76,8 @@ svg:hover {
 .card {
     margin: 1.5rem;
 }
+
+
 @keyframes move {
     100% {
         offset-distance: 10%;
