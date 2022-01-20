@@ -1,11 +1,9 @@
 h1, h2, h3, p, a {
     font-family: 'Nunito', sans-serif;
 }
-
 .navbar {
     background-color: white;
 }
-
 .logo-nav {
     width:100%;
 }
@@ -22,7 +20,6 @@ nav a:hover {
 body {
     background-color: #f5f6f7;
 }
-
 svg {
     text-decoration: none;
     color: darkblue;
@@ -31,29 +28,24 @@ svg:hover {
     text-decoration: underline;
     color: darkblue;
 }
-
 .separate-me {
     background-color: #f5f6f7;
     min-height: 500px;
     min-width: 1200px;
 }
-
 .separate-me-more {
     background-color: #f5f6f7;
     min-height: 250px;
     min-width: 1200px;
 }
-
 .separate-me-less{
     background-color: #f5f6f7;
     min-height: 50px;
     min-width: 1200px;
 }
-
 .block {
     transition: transform .2s;
 }
-
 .block:hover {
     transform: scale(1.2);
     z-index: 100;
@@ -61,12 +53,10 @@ svg:hover {
 .btn {
     background: #ecdd80;;
 }
-
 .btn:hover {
     background: #29b9ad;
     color: white;
 }
-
 .color {
     background-color: #29b9ad;
     color: white;
@@ -75,26 +65,16 @@ svg:hover {
     background-color: #29b9ad;
 }
 .div {
-    width: 60px;
-    height: 60px;
-    margin: 20px;
+    width: 50px;
+    height: 50px;
+    margin: 50px;
     clip-path: circle(40%);
     animation: move 800ms infinite alternate ease-in-out;
     offset-path: path('M0,0 L60, 0 L-60,30z');
 }
-.div:nth-child(1) {
-    offset-rotate: auto;
-}
-.div:nth-child(2) {
-    offset-rotate: auto ;
-}
-.div:nth-child(3) {
-    offset-rotate: 30deg;
-}
-
 @keyframes move {
     100% {
-        offset-distance: 20%;
+        offset-distance: 10%;
     }
 }
 
