@@ -3,7 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Product;
-use Symfony\Bridge\Doctrine\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -13,7 +13,7 @@ class ShowController extends AbstractController
     /**
      * @Route("/show", name="show")
      */
-    public function show(\Doctrine\Persistence\ManagerRegistry $managerRegistry): Response
+    public function show(ManagerRegistry $managerRegistry): Response
     {
         $products = $managerRegistry->getRepository(Product::class)
             ->findAll();
